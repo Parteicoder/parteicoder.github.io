@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Impressum | Plakat Kompass</title>
+
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="bingbot" content="noindex, nofollow">
+
+<link rel="canonical" href="https://parteicoder.github.io/impressum.html">
+
+<style>
+
+body{
+    margin:0;
+    background:#f4f4f4;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+
+    width:650px;
+    max-width:90%;
+    background:white;
+
+    border-radius:16px;
+
+    padding:40px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+img{
+
+    max-width:100%;
+
+    user-select:none;
+
+    -webkit-user-select:none;
+
+    -webkit-user-drag:none;
+
+    pointer-events:none;
+
+}
+
+.back{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#d81b60;
+
+    padding:14px 26px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+.back:hover{
+
+    background:#b3134e;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Impressum</h1>
+
+<img
+src="impressum.webp"
+alt="Impressum"
+draggable="false">
+
+<br>
+
+<a class="back" href="index.html">
+Zurück
+</a>
+
+</div>
+
+<script>
+
+document.addEventListener("contextmenu",e=>e.preventDefault());
+
+document.addEventListener("copy",e=>e.preventDefault());
+
+document.addEventListener("cut",e=>e.preventDefault());
+
+document.addEventListener("dragstart",e=>e.preventDefault());
+
+document.addEventListener("selectstart",e=>e.preventDefault());
+
+document.addEventListener("keydown",function(e){
+
+if(e.ctrlKey){
+
+if(
+
+e.key==="c" ||
+
+e.key==="u" ||
+
+e.key==="s" ||
+
+e.key==="a"
+
+){
+
+e.preventDefault();
+
+}
+
+}
+
+});
+
+</script>
+
+</body>
+
+</html>
